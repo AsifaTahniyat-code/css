@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Animation</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      animation: move 4s infinite alternate;
+    }
+
+    @keyframes move {
+      from { left: 0px; }
+      to { left: 300px; background: blue; }
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
