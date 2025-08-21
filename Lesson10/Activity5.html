@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pseudo Classes Summary</title>
+  <style>
+    a:link { color: blue; }
+    a:visited { color: purple; }
+    a:hover { color: red; font-size: 20px; }
+    a:active { color: green; }
+    
+    input:focus {
+      border: 2px solid orange;
+      background-color: lightcyan;
+    }
+    
+    button:disabled {
+      background-color: lightgray;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>Links</h2>
+  <a href="https://example.com">Example Link</a>
+
+  <h2>Input</h2>
+  <input type="text" placeholder="Focus on me">
+
+  <h2>Buttons</h2>
+  <button>Active Button</button>
+  <button disabled>Disabled Button</button>
+</body>
+</html>
