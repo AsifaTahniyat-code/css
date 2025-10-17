@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML DOM Structure</title>
+</head>
+<body>
+
+<h2>HTML DOM Structure Example</h2>
+
+<div id="container">
+  <h3 id="title">Hello World</h3>
+  <p id="info">Learning DOM Structure</p>
+</div>
+
+<script>
+// Accessing and modifying DOM elements
+let div = document.getElementById("container");
+let title = document.getElementById("title");
+let info = document.getElementById("info");
+
+// Change text and style
+title.innerHTML = "Updated Title using DOM";
+info.style.color = "green";
+div.style.border = "2px solid black";
+div.style.padding = "10px";
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Call Stack</title>
+</head>
+<body>
+
+<h2>Call Stack Example</h2>
+
+<script>
+function first() {
+  document.write("Inside first function<br>");
+  second();
+}
+
+function second() {
+  document.write("Inside second function<br>");
+  third();
+}
+
+function third() {
+  document.write("Inside third function<br>");
+}
+
+// Starting point
+first();
+</script>
+
+</body>
+</html>
