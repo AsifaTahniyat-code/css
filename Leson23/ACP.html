@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sum of Arguments</title>
+</head>
+<body>
+
+<h2>Sum of Arguments using Arguments Object</h2>
+
+<script>
+function sumOfArguments() {
+  let sum = 0;
+  for(let i = 0; i < arguments.length; i++) {
+    sum += arguments[i];
+  }
+  document.write("Sum of arguments: " + sum);
+}
+
+// Calling function with different numbers of arguments
+sumOfArguments(10, 20, 30, 40);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Properties of Object</title>
+</head>
+<body>
+
+<h2>Properties of Object</h2>
+
+<script>
+let car = {
+  brand: "Toyota",
+  model: "Innova",
+  color: "White"
+};
+
+// Accessing object properties
+document.write("Brand: " + car.brand + "<br>");
+document.write("Model: " + car["model"] + "<br>");
+
+// Adding new property
+car.year = 2022;
+
+// Modifying property
+car.color = "Black";
+
+// Displaying updated object
+document.write("Color: " + car.color + "<br>");
+document.write("Year: " + car.year);
+</script>
+
+</body>
+</html>

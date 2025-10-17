@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scope of Variables</title>
+</head>
+<body>
+
+<script>
+let globalVar = "I'm a global variable"; // can be used anywhere
+
+function showScope() {
+  let localVar = "I'm a local variable"; // can be used only inside this function
+  document.write(globalVar + "<br>");
+  document.write(localVar + "<br>");
+}
+
+showScope();
+
+// Trying to use localVar outside the function (will cause error)
+document.write("<br>Trying to access localVar outside function:<br>");
+document.write(typeof localVar); // "undefined"
+</script>
+
+</body>
+</html>
